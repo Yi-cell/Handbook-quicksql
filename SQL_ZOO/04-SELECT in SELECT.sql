@@ -49,11 +49,6 @@ Answer: SELECT name, continent FROM world x WHERE population > ALL(SELECT 3*popu
 
 
 
-
-
-
-
-
 To gain an absurdly detailed view of one insignificant feature of the language, read on.
 
 We can use the word ALL to allow >= or > or < or <=to act over a list. For example, you can find the largest country in the world, by population with this query:
